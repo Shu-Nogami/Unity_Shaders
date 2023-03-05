@@ -13,7 +13,7 @@ Shader "Unlit/WorldSpaceNormalsShader"
             // 名前をv2fとし、worldNormalとposを内包する
             struct v2f
             {
-                half3 worldNormal : TEXCOORDD;
+                half3 worldNormal : TEXCOORD0;
                 float4 pos : SV_POSITION;
             };
 
